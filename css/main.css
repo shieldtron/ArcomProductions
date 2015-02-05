@@ -1,0 +1,228 @@
+/* ==========================================================================
+   AROCM Productions
+   Version: 1.0
+   Last Revision: 7/10/14
+   Author: Jonathan Moore
+   ========================================================================== */
+/*Fluid Images*/
+img, 
+object {
+	max-width: 100%;
+}
+/*Twitter Bootstrap*/
+.container { 
+  width: 100%;
+}
+
+/* social icons */
+ul.social-icons {
+	margin:4px 0 0 10px;
+	list-style:none;
+}
+ul.social-icons li {
+	display:inline;
+}
+.social-icons > li > a:hover {
+	opacity:0.8;
+}
+.social-icons img {
+	width:32px;
+	height:32px;
+	padding-right: 10px;
+}
+/*UL*/
+.menu li { 
+	list-style-type:none; 
+	  }
+
+/*Main*/
+body {
+	color: #000000;
+	background-color: #FFFFFF;
+	margin: 0;
+	font-size: 100%;
+}
+
+h1 {
+	font-size: 150%;
+}
+h2 {
+	font-size: 125%;
+}
+
+h3 {
+	font-size: 110%;
+}
+
+.steve {
+	margin-left: 60px;
+}
+
+
+
+#container {
+    max-width: 960px;
+	width: 100%;
+	margin: 0 auto;
+	background-color: #FFFFFF;
+}
+
+#content {
+	width: 100%;
+}
+
+#sidebar {
+	width: 100%;
+}
+
+#credits  {
+    clear: both;
+	
+}
+
+footer { 
+	font-size: 75%;
+	text-align: center;
+	color: #FFFFFF;
+	background-color: #080808;
+}
+
+#masthead , #credits {
+    width: 95.83333%;
+    margin-left: 2.083333%;
+}
+
+.portrait {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* the media queries */
+
+@media only screen and (min-width : 768px) {
+	body {
+		background-color: #cccccc;
+		font-size: 100%;
+	}
+	#container {
+		max-width: 960px;
+		margin: 0 auto;
+		background-color: #FFFFFF;
+	}
+
+	#content {
+		width: 66.4583%;
+		margin-left: 2.083333%;
+	}
+
+	#sidebar {
+		width: 27.2916667%;
+		margin-left: 2.083333%;
+	}
+	#content {
+		float: left;
+	}
+
+	#sidebar {
+		float: left;
+	}
+	.portrait {
+		margin-top: 20px;
+		margin-bottom: 20px;
+		margin-right: 10px;
+	}
+	
+	.steve {
+		margin-bottom: 10px;
+		margin-left: 5px;
+	}
+	
+	#location {
+		float: left;
+		padding-right: 20px;
+	
+	}
+	
+	#person{
+		float: left;
+		padding-right: 10px;
+	}
+}
+
+@media only screen and (min-width : 959px) {
+	body {
+		background-image: url(../img/498.png);
+		font-size: 100%
+	}
+	h1 {
+		border-bottom: 1px solid #000000;
+	}
+	#container {
+		max-width: 960px;
+		margin: 0 auto;
+		background-color: #FFFFFF;
+	}
+
+	#content {
+		width: 66.4583%;
+		margin-left: 2.083333%;
+	}
+
+	#sidebar {
+		width: 27.2916667%;
+		margin-left: 2.083333%;
+	}
+	#content {
+	float: left;
+	}
+	#sidebar {
+		float: left;
+	}
+	.portrait {
+		margin-top: 50px;
+		margin-bottom: 20px;
+		border: 1px solid #000000;
+	}
+	
+	#location {
+		float: left;
+		padding-right: 40px;
+	
+	}
+	
+	#person{
+		float: left;
+		padding-right: 10px;
+	}
+	
+	.vendor {
+		margin-bottom: 10px;
+	}
+	
+	h1 {
+		font-size: 175%;
+	}
+	h2 {
+		font-size: 150%;
+	}
+
+	h3 {
+		font-size: 125%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,149 @@
+/*
+AROCM Productions
+Version: 1.0
+Last Revision: 1/31/13
+Author: Jonathan Moore
+*/
+
+body
+{
+	font-family: 'Arial', sans-serif;
+	font-size: 12px;
+	color: #000000;
+	background-color: #FFFFFF;
+	background-image: url(../images/bg.gif);
+	background-attachment: fixed;
+	background-repeat: repeat-x;
+	margin: 0;
+}
+
+#container
+{
+	width: 720px;
+	margin: 0 auto;
+	background-color: #FFFFFF;
+}
+
+#navigation {
+	background-color: #FFFFFF;
+}
+#navigation ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+#navigation ul li {
+	display: inline;
+	float: left;
+}
+#navigation ul li a {
+	float: left;
+	display: block;
+	padding-right: 10px;
+	padding-left: 10px;
+	padding-top: 30px;
+	font-size: 16px;
+	
+}
+#navigation ul li a:link, #navigation ul li a:visited {
+	text-decoration: none;
+	border-left-width: 2px;
+	border-left-style: solid;
+	border-left-color: #000;
+	color: #000000;
+}
+#navigation ul li a:hover {
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #CCC;
+}
+
+#header
+{
+	text-align: center;
+}
+
+#content
+{
+	width: 500px;
+	float: right;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-right:10px;
+	padding-left:10px;
+	border-left: 1px solid #000000;
+}
+
+#sidebar
+{	
+	width: 175px;
+	float: left;
+	padding-top:10px;
+	padding-bottom:10px;
+	padding-right:10px;
+	padding-left:10px;
+}
+
+#footer
+{
+	padding: 5px 0;
+	font-size: 11px;
+	line-height: 0.8em;
+	text-align: center;
+	color: #FFFFFF;
+	background-color: #404040;
+	clear: both;
+}
+
+#tables p
+{
+	margin:0; 
+	padding:0;
+}
+
+#tables h3
+{
+	padding-top: 20px;
+}
+h1
+{
+	border-bottom: 1px solid #000000;
+}
+
+#sidebarleft
+{
+	float: right;
+}
+
+#sidebarleft h3
+{
+	margin-left: 25px;
+}
+
+
+.portrait
+{
+	border: 1px solid #000000;
+}
+
+.portraitcenter
+{
+	border: 1px solid #000000;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.portrait_steve
+{
+	border: 1px solid #000000;
+	float: right;
+	margin-right: 50px;
+}
+
+.network
+{
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
