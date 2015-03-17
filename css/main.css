@@ -1,25 +1,4 @@
 /* main.css */
-    #vid_home p{
-        text-align: center;
-    }
-
-/* responsive-video fix */
-@media (max-width: 990px){
-    .responsive-video {
-    position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 60px; overflow: hidden;
-    }
-
-
-    .responsive-video iframe, .responsive-video object, .responsive-video embed {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    }
-}
 
 /* Phones */
 	/* Navbar */
@@ -44,6 +23,11 @@
 		margin-left: 5px;
 	}
 
+    /* Home */
+    .home-video {
+        margin-top: 50px;
+    }
+
 
 /* tablets */
 @media (min-width: 768px) {
@@ -55,13 +39,6 @@
 		font-size: 20px;
 	}
 	
-	.navbar-left a {
-		margin-right: 25px;
-	}
-
-	.navbar-right a {
-		margin-left: 25px;
-	}
 	
 	/* Body */
 	p {
@@ -81,19 +58,12 @@
 @media (min-width: 992px) {
 	/* Navbar */
 	.navbar-brand  {
-		font-size: 24px;
+		font-size: 26px;
 	}
 	.navbar-nav {
-		font-size: 24px;
+		font-size: 26px;
 	}
 	
-	.navbar-left a {
-		margin-right: 75px;
-	}
-
-	.navbar-right a {
-		margin-left: 75px;
-	}
 	
 	/* Body */
 	p {
