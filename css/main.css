@@ -28,15 +28,19 @@
         margin-top: 50px;
     }
 
+    .carousel-caption h3 {
+        font-size: 16px;
+    }
+
 
 /* tablets */
 @media (min-width: 768px) {
 	/* Navbar */
 	.navbar-brand  {
-		font-size: 20px;
+		font-size: 18px;
 	}
 	.navbar-nav {
-		font-size: 20px;
+		font-size: 18px;
 	}
 	
 	
@@ -53,17 +57,20 @@
 		margin-right: 10px;
 		margin-left: 10px;
 	}
+
+    .carousel-caption h3 {
+        font-size: 24px;
+    }
 }
 /* desktops */
 @media (min-width: 992px) {
 	/* Navbar */
 	.navbar-brand  {
-		font-size: 26px;
+		font-size: 24px;
 	}
 	.navbar-nav {
-		font-size: 26px;
+		font-size: 24px;
 	}
-	
 	
 	/* Body */
 	p {
@@ -78,4 +85,7 @@
 		margin-right: 10px;
 		margin-left: 10px;
 	}
+    .carousel-caption h3 {
+        font-size: 28px;
+    }
 }

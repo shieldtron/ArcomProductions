@@ -21,6 +21,10 @@
     <![endif]-->
   </head>
   <body>
+    <!--[if lt IE 8]>
+        <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+    <![endif]-->
+
 	<div class="container">
 		<img class="img-responsive visible-xs" src="images/arcom_logo_phone.png" alt="arcom_logo" />
 		<img class="img-responsive hidden-xs" src="images/arcom_logo_desktop.png" alt="arcom_logo" />
@@ -48,7 +52,7 @@
         </nav> <!-- /navbar -->
 		<div class="content">
             <!-- Carousel start -->
-            <div id="main_carousel" class="carousel slide" data-ride="carousel">
+            <div id="main_carousel" class="carousel slide hidden-xs" data-ride="carousel">
               <!-- Indicators -->
               <ol class="carousel-indicators">
                 <li data-target="#main_carousel" data-slide-to="0" class="active"></li>
@@ -59,25 +63,24 @@
               <!-- Wrapper for slides -->
               <div class="carousel-inner" role="listbox">
                 <div class="item active">
-                  <img src="images/home_1.JPG" alt="carousel image 1">
+                  <img src="images/home_3.JPG" alt="carousel image 1">
                   <div class="carousel-caption">
-                    
+                      <h3>High Quality Video Production</h3>
                   </div>
                 </div>
                 <div class="item">
                   <img src="images/home_2.JPG" alt="carousel image 2">
                   <div class="carousel-caption">
-                    
+                      <h3>Award Winning Production</h3>
                   </div>
                 </div>
                 <div class="item">
-                  <img src="images/home_3.JPG" alt="carousel image 3">
+                  <img src="images/home_1.JPG" alt="carousel image 3">
                   <div class="carousel-caption">
-                      
+                      <h3>Extensive Experience in Video Production</h3>
                   </div>
                 </div>  
               </div>
-
               <!-- Controls -->
               <a class="left carousel-control" href="#main_carousel" role="button" data-slide="prev">
                 <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
@@ -88,11 +91,9 @@
                 <span class="sr-only">Next</span>
               </a>
             </div><!-- End carousel -->
-
             <div class="page-header">
-                <h1>Arcom Productions Inc.</h1>
+                <h1>Arcom Productions <span class="hidden-xs">Inc.</span></h1>
             </div>
-
             <div class="row">
                 <div class="col-md-6">
                     <h2>What We Do</h2>
@@ -101,20 +102,18 @@
                 <div class="col-md-6">
                     <h2>Award Winning Production</h2>
                     <p>Our video production and interactive media have been recognized by receiving numerous awards for outstanding service and products.</p>
-
-                   
                 </div>
             </div>
 
             <div class="row home-video">
                 <div class="col-md-12">
                     <div class="embed-responsive embed-responsive-16by9">
-                        <iframe src="https://www.youtube.com/embed/zlIqbSai9-Q" frameborder="0" allowfullscreen></iframe>
-                        
+                        <iframe src="https://www.youtube.com/embed/zlIqbSai9-Q?rel=0" frameborder="0" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
-            <p class="text-center">To see more videos, visit us at our <a href="https://www.youtube.com/user/ArcomProductions">YouTube page</a></p>
+            <p class="text-center lead">To see more videos, visit us at our <a href="https://www.youtube.com/user/ArcomProductions">YouTube page</a></p>
+            <p class="text-center lead">Check out our newest documentary: <a href="http://arcomproductions.com/valmeyer/index.html">Valmeyer, IL: The Documentary</a></p>
 		</div>
 		<footer>
 			<hr />
